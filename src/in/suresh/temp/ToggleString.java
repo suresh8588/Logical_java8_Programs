@@ -31,5 +31,22 @@ public class ToggleString {
 
 		System.out.println(sb);
 
+		// =================Approach - 3   ===============
+
+		togglestr(str);
+	}
+
+	private static void togglestr(String str) {
+
+		String newString = "";
+		for (Character ch : str.toCharArray()) {
+
+			if (Character.isUpperCase(ch)) {
+				newString = newString + Character.toLowerCase(ch);
+			} else {
+				newString = newString + Character.toUpperCase(ch);
+			}
+		}
+		System.out.println(newString);
 	}
 }

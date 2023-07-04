@@ -30,6 +30,30 @@ public class EmployeeMain {
 		empList.add(new Employee(14, "Buttler", 24, "Male", "Sales", 2017, 10700.5));
 		empList.add(new Employee(15, "Ashok", 23, "Male", "Infrastructure", 2018, 12700.0));
 		empList.add(new Employee(16, "Sanvi", 26, "Female", "Development", 2015, 28900.0));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 // 1. How many male and female employees are there in the organization ?
 		Map<String, Long> countMaleFemale = empList.stream()
