@@ -13,6 +13,7 @@ public class ReadFileData {
 
 		BufferedReader bufferedReader =new BufferedReader(fr);
 		List<String> list = bufferedReader.lines().collect(Collectors.toList());
+		bufferedReader.close();
 		list.forEach(System.out::println);
 	}
 }

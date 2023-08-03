@@ -82,7 +82,7 @@ public class EmployeeSorting {
 		Employee e2 = new Employee(2, "Nandini", 5000.00, "Fe-Male", "Sales");
 		Employee e3 = new Employee(3, "Naresh", 15000.00, "Male", "Admin");
 		Employee e4 = new Employee(4, "Praveen", 25000.00, "Male", "Marketing");
-		Employee e5 = new Employee(5, "Swapna", 35000.00, "Fe-Male", "Account");
+		Employee e5 = new Employee(5, "Anvitha", 35000.00, "Fe-Male", "Account");
 		Employee e6 = new Employee(6, "Raju", 45000.00, "Male", "HR");
 
 		List<Employee> list = Arrays.asList(e1, e2, e3, e4, e5, e6);
