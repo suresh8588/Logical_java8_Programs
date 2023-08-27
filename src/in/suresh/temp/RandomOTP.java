@@ -15,6 +15,7 @@ public class RandomOTP {
 		StringBuilder sb = new StringBuilder();
 		Random random = new Random();
 		for (int i = 0; i < length; i++) {
+			
 			int index = random.nextInt(numbers.length());
 			char otp = numbers.charAt(index);
 			sb.append(otp);

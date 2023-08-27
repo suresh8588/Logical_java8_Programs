@@ -3,12 +3,22 @@ package in.suresh.temp;
 public class Test {
 
 	public static void main(String[] args) {
-		String s1 = new String("hi");
-		String s2 = new String("hi");
-		if (s1==s2) {
-			System.out.println("Both are same");
-		} else {
-			System.out.println("Both are not same");
-		}
+		
+		int b;
+		int p;
+		Integer power = power(2, 4);
+		System.out.println(power);
 	}
+
+	private static Integer power(int b, int p) {
+
+		int power = 1;
+
+		for (int i = 0; i < p; i++) {
+			power = power * b;
+
+		}
+		return power;
+	}
+
 }
