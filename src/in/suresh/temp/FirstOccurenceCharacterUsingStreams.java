@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class FirstOccurenceCharacterUsingStreams {
 public static void main(String[] args) {
 		
-		String input = "Java articles are Awesome";
+		String input = "Java articles are jAwesome";
 		
 		
 		Character res = input.chars()

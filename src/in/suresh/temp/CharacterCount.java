@@ -7,16 +7,16 @@ public class CharacterCount {
 
 	public static void main(String[] args) {
 		String s = "abcdabcde";
-		HashMap<Character, Integer> charcter = new HashMap<>();
+		HashMap<Character, Integer> map = new HashMap<>();
 		char[] array = s.toCharArray();
 
 		for (char c : array) {
-			charcter.put(c, charcter.getOrDefault(c, 0) + 1);
+			map.put(c, map.getOrDefault(c, 0) + 1);
 		}
 
-		for (Map.Entry<Character, Integer> map : charcter.entrySet()) {
+		for (Map.Entry<Character, Integer> entry : map.entrySet()) {
 
-			System.out.println(map.getKey() + " = " + map.getValue());
+			System.out.println(entry.getKey() + " = " + entry.getValue());
 		}
 	}
 }

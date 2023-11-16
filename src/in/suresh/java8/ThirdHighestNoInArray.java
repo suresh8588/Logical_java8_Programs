@@ -10,7 +10,7 @@ public class ThirdHighestNoInArray {
 	public static void main(String[] args) {
 		Integer[] arr = { 1, 6, 1, 7, 1, 6, 9, 8, 7, 9 };
 		List<Integer> list = Arrays.asList(arr);
-		Optional<Integer> thirdHighestNo = list.stream().sorted(Comparator.reverseOrder()).skip(3).findFirst();
+		Optional<Integer> thirdHighestNo = list.stream().sorted(Comparator.reverseOrder()).distinct().skip(2).findFirst();
 		if (thirdHighestNo.isPresent()) {
 			System.out.println(thirdHighestNo);
 		} else {
